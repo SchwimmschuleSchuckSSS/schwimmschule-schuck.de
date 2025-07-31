@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preise & Standorte – Schwimmschule Schuck</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .preise {
+      padding: 2rem;
+      background-color: #f7faff;
+      color: #111;
+    }
+    .price-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .price-box {
+      background: white;
+      border: 2px solid #0077cc;
+      border-radius: 15px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+    .price-box:hover {
+      transform: translateY(-5px);
+    }
+    .preis {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #0077cc;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #0077cc, #00bcd4);
+      color: white;
+      font-weight: bold;
+      border: none;
+    }
+    .standorte {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .standort-box {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero-title">
+      <h1>Schwimmschule Schuck</h1>
+    </div>
+    <img src="bilder/Logo_hrz.png" alt="Logo" class="logo" />
+    <nav class="modern-nav">
+      <a href="index.html" class="nav-button">Start</a>
+      <a href="preise.html" class="nav-button ">Preise & Standorte</a>
+      <a href="buchen.html" class="nav-button nav-highlight">Jetzt buchen</a>
+      <a href="impressum.html" class="nav-button">Impressum</a>
+      <a href="datenschutz.html" class="nav-button">Datenschutz</a>
+      <a href="agb.html" class="nav-button">AGB</a>
+    </nav>
+  </header>
+
+  <main class="preise">
+    <h2>Preise</h2>
+    <div class="price-cards">
+      <div class="price-box">
+        <h3>Wassergewöhnung</h3>
+        <p>ab 4 Jahren</p>
+        <p class="preis">79 € / 5 Einheiten</p>
+      </div>
+      <div class="price-box">
+        <h3>Seepferdchen-Kurs</h3>
+        <p>ab 5 Jahren</p>
+        <p class="preis">129 € / 8 Einheiten</p>
+      </div>
+      <div class="price-box">
+        <h3>Bronze-Kurs</h3>
+        <p>ab 6 Jahren</p>
+        <p class="preis">139 € / 8 Einheiten</p>
+      </div>
+      <div class="price-box">
+        <h3>Erwachsenen-Schwimmen</h3>
+        <p>individuelle Betreuung</p>
+        <p class="preis">149 € / 6 Einheiten</p>
+      </div>
+      <div class="price-box highlight-box">
+        <h3>Privatunterricht (Einzel)</h3>
+        <p>1:1 Betreuung – individuell & flexibel</p>
+        <p class="preis" style="color: black;">49 € / Einheit (45 Min)</p></style>
+      </div>
+      <div class="price-box">
+        <h3>Reha-/Aufbaukurse</h3>
+        <p>nach ärztlicher Empfehlung</p>
+        <p class="preis">nach Absprache</p>
+      </div>
+    </div>
+
+    <h2>Standorte</h2>
+    <div class="standorte">
+      <div class="standort-box">
+        <h4>Hotel AquaWell, Köln</h4>
+        <p>Beheiztes Hallenbad, Parkplätze vor Ort</p>
+      </div>
+      <div class="standort-box">
+        <h4>WellnessResort Neuss</h4>
+        <p>Thermalbad, gute Anbindung ÖPNV</p>
+      </div>
+      <div class="standort-box">
+        <h4>Gesundheitszentrum Dortmund</h4>
+        <p>Barrierefrei, Reha-Angebote möglich</p>
+      </div>
+      <div class="standort-box">
+        <h4>Vitalpark Bielefeld</h4>
+        <p>Moderne Ausstattung, Familienfreundlich</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-boxes">
+      <a href="impressum.html" class="footer-box">Impressum</a>
+      <a href="datenschutz.html" class="footer-box">Datenschutz</a>
+      <a href="agb.html" class="footer-box">AGB</a>
+    </div>
+    <p>&copy; 2025 Schwimmschule Schuck</p>
+  </footer>
+</body>
+</html>
